@@ -1,0 +1,59 @@
+.main-content {
+    padding: 40px;
+    background-color: #ecf0f1;
+    transition: background-color 0.3s ease;
+    .main-title {
+        text-align: center;
+        font-size: 36px;
+        color: #34495e;
+        margin-bottom: 30px;
+        transition: color 0.3s ease;
+    }
+    .main-title:hover {
+        color: #2c3e50;
+    }
+    .servextra-section {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        .servextra-img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .servextra-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px black;
+        }
+        .servextra-desc {
+            flex: 1;
+            font-size: 18px;
+            color: #264564;
+            line-height: 1.6;
+            transition: color 0.3s ease;
+        }
+        .servextra-desc:hover {
+            color: #1b2f46;
+        }
+    }
+    .servextra-section:hover {
+        background-color: #c18dec3a;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+    .main-content:hover {
+        background-color: #dcdfe1;
+    }
+}
+
+
+
+
+
+
